@@ -82,7 +82,10 @@ section {
 }
 
 .home-img img {
-    width: 35vw;
+    width: 31vw;
+    border: 3px solid var(--text-color);
+    border-radius: 50%;
+    box-shadow: -5px 8px 30px 1px var(--main-color);
     animation: floatImage 2.7s ease-in-out infinite;
 }
 
@@ -181,10 +184,10 @@ span {
 }
 
 .about-img img {
-    width: 35vw;
-    border: 3px solid cyan;
+    width: 33vw;
+    border: 1px solid var(--main-color);
     border-radius: 12%;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 2px 3px 35px var(--main-color);
 }
 
 
